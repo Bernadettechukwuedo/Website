@@ -44,9 +44,6 @@ a{
    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
-
 /*body*/
 body{
     background-image: url("images/img.jpg");
@@ -60,9 +57,6 @@ body{
     
   }
 
-
-
-  
 .img1{
     width:400px;
     height:400px;
@@ -92,7 +86,6 @@ body{
     font-size: 20px;
     width:100vw;
     height:40px;
-    
 }
 
 .img9{
@@ -100,9 +93,7 @@ body{
     height:350px;
     border-radius: 10px;
     margin-left: 20px;
-    margin-top: 30px;
-
-}
+    margin-top: 30px;}
 
 .img8{
     aspect-ratio: 1/1;
@@ -153,8 +144,6 @@ body{
     border-radius: 10px;
     margin-left: 20px;
     margin-top: 30px;
-    
-
 }
 
 
@@ -193,11 +182,94 @@ body{
     
 
 }
+/*media*/
+/* @media screen and (max-width:720px){
+   #head{
+    width:500vw;
+   }
+   
+   a{
+    margin:25px
+   }
+
+   .bar1{
+    margin-left: 250%;
+   }
+   .img5{
+    position: relative;
+    top: -440px;
+    margin-left: 550px;
+   }
+
+   .img7{
+    position: relative;
+    top: -400px;
+    margin-left: 330px;
+   }
+   #make{
+    width: 500vw;
+    position: relative;
+    top:-300px;
+   }
+   .img9{
+     
+    margin-left: 20px;
+    top: -300px;
+    position: relative;
+    }
+
+    .img8{
+    margin-left: 400px;
+    top: -684px;
+    position: relative;
+    }
+   .img3{
+    position: absolute;
+    margin-left: 90%
+   }
+   .img4{
+    position: absolute;
+    margin-left: 170%;
+   }
+   .img2{
+    position: absolute;
+    margin-left: 250%;
+   }
+   .img11{
+    position: absolute;
+    margin-left: 10%;
+   }
+
+   #price{
+    width:500vw
+   }
+   .img10{
+    margin-left: 200%;
+   }
+
+   #footer{
+    width:500vw
+   }
+} */
 
 
+ @media screen and (max-width:1248px){
+    #head{
+        width:300vw;
+    }
+    #make{
+        width: 300vw;
 
+    } 
+    #footer{
+        width: 300vw;
+    }
+    #price{
+        width: 300vw;
+    }
+    
 /*phone */
- @media  screen and  (max-device-width: 720px)   {
+ @media  screen and  (max-device-width: 730px)   {
    
 #head{
         background-color:rgb(207,128,123);
@@ -253,11 +325,9 @@ a{
 }
 #make{
     
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     width:400vw;
-    height:40px;
+    height:50px;
     position: relative;
     top: -500px;
     
@@ -266,7 +336,6 @@ a{
 .img9{
     aspect-ratio: 4/5;
     height : 450px;
-    border-radius: 10px;
     margin-left: 20px;
     top: -500px;
     position: relative;
@@ -276,7 +345,6 @@ a{
 .img8{
     aspect-ratio: 4/5;
     height:450px;
-    border-radius: 10px;
     margin-left: 450px;
     top: -984px;
     position: relative;
@@ -286,7 +354,6 @@ a{
 .img3{
     aspect-ratio: 5/5;
     height:450px;
-    border-radius: 10px;
     margin-left: 880px;
     top: -1470px;
     position: relative;
@@ -296,7 +363,6 @@ a{
 .img4{
     aspect-ratio: 4/5;
     height:450px;
-    border-radius: 10px;
     margin-left: 20px;
     margin-top: 30px;
     top: -1470px;
@@ -306,7 +372,6 @@ a{
 .img2{
     aspect-ratio: 4/5;
     height:450px;
-    border-radius: 10px;
     margin-left: 450px;
     margin-top: 30px;
     top: -1950px;
@@ -316,7 +381,6 @@ a{
 .imgs{
     aspect-ratio: 1/1;
     height:450px;
-    border-radius: 10px;
     margin-left: 887px;
     margin-top: 30px;
     top: -2435px;
@@ -326,7 +390,6 @@ a{
 .img11{
     aspect-ratio: 4/5;
     height:450px;
-    border-radius: 10px;
     margin-left: 20px;
     margin-top: 30px;
     top: -2435px;
@@ -335,7 +398,7 @@ a{
 }
 #price{
     margin-top: 10px;
-    background-color:rgb(207,128,123) ;
+    
     height:40px;
     width:400vw;
     position: relative;
@@ -348,12 +411,9 @@ a{
     position: relative;
     top: -2420px;
     height: 2200px;
-    
-    
 }
-
 #footer{
-    background-color: rgb(207,128,123) ;
+    
     width:400vw;
     height:200px
  }
@@ -520,11 +580,11 @@ body{
     background-color: rgb(207,128,123) ;
     width:450vw;
     height:200px
- }
-} */
+ } */
+/* } */
 
 
-@media only screen and (max-device-width: 1024px) {
+/* @media only screen and (max-device-width: 1024px) {
 
     #head{
         background-color:rgb(207,128,123);
@@ -555,4 +615,4 @@ body{
         width:550vw;
         height:200px
      } 
-    }
+    } 
